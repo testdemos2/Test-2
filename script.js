@@ -20,7 +20,7 @@ const translations = {
     "contact.eyebrow":"CONTACT & BOOKING","contact.heading":"LET'S MAKE<br><em>SOMETHING.</em>",
     "contact.copy":"For directing, filmmaking, creative projects, collaborations and booking:",
     "contact.emailLabel":"EMAIL","contact.book":"BOOK CHRIS STORM",
-    "footer.right":"INDEPENDENT CINEMA"
+    "gallery.eyebrow":"BEHIND THE CAMERA","gallery.heading":"THE FILM<br><em>STARTS HERE.</em>","gallery.copy":"From the first frame to the final cut — I build my films through practical work, experimentation and independent production.","footer.right":"INDEPENDENT CINEMA"
   },
   de: {
     "nav.about":"ÜBER MICH","nav.kino":"KINO","nav.contact":"KONTAKT",
@@ -43,7 +43,7 @@ const translations = {
     "contact.eyebrow":"KONTAKT & BUCHUNG","contact.heading":"LASS UNS<br><em>ETWAS MACHEN.</em>",
     "contact.copy":"Für Regie, Filmproduktionen, kreative Projekte, Kooperationen und Buchungen:",
     "contact.emailLabel":"E-MAIL","contact.book":"CHRIS STORM BUCHEN",
-    "footer.right":"UNABHÄNGIGES KINO"
+    "gallery.eyebrow":"HINTER DER KAMERA","gallery.heading":"DER FILM<br><em>BEGINNT HIER.</em>","gallery.copy":"Vom ersten Bild bis zum finalen Schnitt — meine Filme entstehen durch praktische Arbeit, Experimente und unabhängige Produktion.","footer.right":"UNABHÄNGIGES KINO"
   }
 };
 

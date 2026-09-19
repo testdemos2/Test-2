@@ -25,3 +25,6 @@ English loads first. Press the `DE` button in the top-right corner to switch to 
 
 ## Film data
 Film titles, years, YouTube IDs and descriptions were carried over from the existing Chris Storm website repository.
+
+## Directing gallery
+Two supplied behind-the-scenes photographs are included in `images/` and are used in the new directing section.
