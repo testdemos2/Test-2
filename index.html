@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chris Storm — Independent Filmmaker</title>
+  <meta name="description" content="Chris Storm — Independent filmmaker, director and storyteller. Horror, thriller, found footage and documentary.">
+  <meta name="theme-color" content="#070707">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="brand" href="#home" aria-label="Chris Storm home">
+      <span>CHRIS</span><b>STORM</b>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#about" data-i18n="nav.about">ABOUT</a>
+      <a href="#kino" data-i18n="nav.kino">KINO</a>
+      <a href="#contact" data-i18n="nav.contact">CONTACT</a>
+    </nav>
+
+    <div class="nav-tools">
+      <button class="lang-btn" id="languageToggle" type="button" aria-label="Switch language">
+        <span id="languageLabel">DE</span>
+      </button>
+      <button class="menu-btn" id="menuButton" type="button" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <a href="#about" data-i18n="nav.about">ABOUT</a>
+    <a href="#kino" data-i18n="nav.kino">KINO</a>
+    <a href="#contact" data-i18n="nav.contact">CONTACT</a>
+  </div>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="kicker" data-i18n="hero.kicker">INDEPENDENT FILMMAKER · DIRECTOR · STORYTELLER</p>
+        <h1>CHRIS<br><span>STORM</span></h1>
+        <p class="hero-copy" data-i18n="hero.copy">Independent films. Real stories. Dark ideas.</p>
+        <div class="hero-actions">
+          <a class="btn btn-red" href="#kino" data-i18n="hero.cta">ENTER CHRIS STORM KINO</a>
+          <a class="text-link" href="#about" data-i18n="hero.more">DISCOVER THE FILMMAKER ↓</a>
+        </div>
+      </div>
+      <div class="hero-stamp">
+        <span>IDEAS</span><span>CAMERA</span><span>BLOOD</span><span>EDIT</span><span>REPEAT</span>
+      </div>
+      <div class="scroll-mark">SCROLL <i></i></div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-index">01 / 04</div>
+      <div class="about-main">
+        <p class="eyebrow" data-i18n="about.eyebrow">ABOUT CHRIS STORM</p>
+        <h2 data-i18n="about.heading">FILMS MADE<br><em>FROM THE GROUND UP.</em></h2>
+
+        <div class="about-copy">
+          <p data-i18n="about.p1"></p>
+          <p data-i18n="about.p2"></p>
+          <p data-i18n="about.p3"></p>
+          <p data-i18n="about.p4"></p>
+          <p data-i18n="about.p5"></p>
+        </div>
+      </div>
+
+      <aside class="profile-card">
+        <div class="profile-top">
+          <span>CS / 2026</span>
+          <span>INDEPENDENT CINEMA</span>
+        </div>
+        <div class="profile-photo">
+          <img src="https://raw.githubusercontent.com/chris-storm-horror-festival/Chris-Storm/main/chris-storm-poster.png" alt="Chris Storm filmmaker poster">
+        </div>
+        <div class="profile-data">
+          <div><small data-i18n="profile.jobLabel">ROLE</small><strong data-i18n="profile.job">Director · Filmmaker · Video Editor · Videographer</strong></div>
+          <div><small data-i18n="profile.workLabel">APPROACH</small><strong data-i18n="profile.work">Self-taught · Independent Production</strong></div>
+          <div><small data-i18n="profile.skillsLabel">SKILLS</small><strong data-i18n="profile.skills">Screenwriting · Concept · Directing · Camera · Editing · Color Grading · VFX · Postproduction</strong></div>
+          <div><small data-i18n="profile.otherLabel">OTHER WORK</small><strong data-i18n="profile.other">Documentary · Commercial · Sport · Social Media</strong></div>
+          <div><small>INSTAGRAM</small><strong>@kiko.kristijan_</strong></div>
+          <div><small>CONTACT</small><strong>chrisstormfilms@gmail.com</strong></div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="kino" class="section kino">
+      <div class="section-index">02 / 04</div>
+      <div class="kino-head">
+        <div>
+          <p class="eyebrow" data-i18n="kino.eyebrow">STREAMING ARCHIVE</p>
+          <h2>CHRIS STORM<br><em>KINO</em></h2>
+        </div>
+        <p class="kino-note" data-i18n="kino.note">Short films, documentaries and independent cinema.</p>
+      </div>
+
+      <div class="film-grid" id="filmGrid"></div>
+    </section>
+
+    <section class="manifesto">
+      <div class="manifesto-word" data-i18n="manifesto.quote">HORROR<br>LIVES HERE.</div>
+      <div class="manifesto-line"></div>
+      <p data-i18n="manifesto.copy">Short films, experiments and independent cinema — all in one place.</p>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-index">04 / 04</div>
+      <div class="contact-grid">
+        <div>
+          <p class="eyebrow" data-i18n="contact.eyebrow">CONTACT & BOOKING</p>
+          <h2 data-i18n="contact.heading">LET'S MAKE<br><em>SOMETHING.</em></h2>
+          <p class="contact-copy" data-i18n="contact.copy"></p>
+        </div>
+        <div class="contact-box">
+          <span data-i18n="contact.emailLabel">EMAIL</span>
+          <a href="mailto:chrisstormfilms@gmail.com">chrisstormfilms@gmail.com</a>
+          <div class="contact-buttons">
+            <a class="btn btn-red" href="mailto:chrisstormfilms@gmail.com?subject=Booking%20%2F%20Collaboration" data-i18n="contact.book">BOOK CHRIS STORM</a>
+            <a class="btn btn-outline" href="https://www.instagram.com/kiko.kristijan_/" target="_blank" rel="noopener">INSTAGRAM</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 CHRIS STORM</span>
+    <span data-i18n="footer.right">INDEPENDENT CINEMA</span>
+    <span>GERMANY / EUROPE</span>
+  </footer>
+
+  <div class="modal" id="playerModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="player">
+      <button class="close" data-close aria-label="Close">×</button>
+      <div class="video-wrap"><iframe id="playerFrame" src="" title="Chris Storm film player" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="player-info">
+        <p class="eyebrow" id="playerMeta"></p>
+        <h3 id="playerTitle"></h3>
+        <p id="playerDescription"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
